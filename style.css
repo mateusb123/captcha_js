@@ -1,0 +1,48 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.border-captha {
+    width: 240px;
+    display: flex;
+    height: 60px;
+    border: 3px solid rgb(1, 102, 170);
+    background: rgb(12, 120, 170);
+    border-radius: 5px;
+}
+.border-captha h2 {
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.border-captha input {
+    margin-top: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+#demo {
+    display: none;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 300px;
+    background:rgb(24, 144, 225);
+    height: 150px;
+    color: white;
+    border-radius: 12px;
+}
+#demo h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+#demo input {
+    margin-left: 15px;
+}
+#demo button {
+    width: 88%;
+    margin-top: 8px;
+    height: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
